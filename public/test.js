@@ -5,8 +5,11 @@ var vierkant = {
   h: 35
 };
 
+var xSize = 400;
+var ySize = 180;
+
 function setup(){
-  createCanvas(800,600);
+  createCanvas(xSize,ySize);
 }
 
 function draw(){
