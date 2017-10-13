@@ -1,0 +1,22 @@
+{
+  "name": "js-vg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/issamvandecoderclass/Javascript-_voor_games_0.git"
+  },
+  "keywords": [
+    "cool"
+  ],
+  "author": "issam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/issamvandecoderclass/Javascript-_voor_games_0/issues"
+  },
+  "homepage": "https://github.com/issamvandecoderclass/Javascript-_voor_games_0#readme"
+}
