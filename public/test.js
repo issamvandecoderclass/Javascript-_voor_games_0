@@ -6,10 +6,10 @@ var vierkant = {
 };
 
 function setup(){
-  background(100);
+  createCanvas(800,600);
 }
 
 function draw(){
-
+  background(0);
   rect(vierkant.x,vierkant.y,vierkant.b,vierkant.h);
 }
