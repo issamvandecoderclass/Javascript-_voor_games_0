@@ -1,18 +1,18 @@
 var xCar;
 var yCar;
-var xSize = 400;
-var ySize = 180;
+var xSize = 600;
+var ySize = 480;
 var wheelSize;
 
 function setup() {
   createCanvas(xSize, ySize);
   xCar = 50;
-  yCar = 100;
-  wheelSize = 24;
+  yCar = 200;
+  wheelSize = 50;
 }
 
 function draw() {
-    background(220); //Één cijfer geeft grijswaarden
+    background(290); //Één cijfer geeft grijswaarden
     drawCar(xCar, yCar, wheelSize);
     xCar += 1;
 };

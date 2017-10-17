@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 
-console.log("server is still running...");
+console.log("server is gestart...");
 
 app.listen(3000);
 
