@@ -25,25 +25,19 @@ function draw() {
     speed += 1;
     if (speed >= 40 || speed <= -40){
       console.log("Groter dan 40");
+      speed = 10;
     };
-    else if (speed <= -40) {
-            speed += 1;
-    } else {
-      console.log('teysgrsuygeu');
-    }
 };
 
 function drawCar(xCar, yCar, wheelSize){
-    //Geen randen om de auto
     noStroke();
-    //Kies de opvulkleur (rgb)
     fill(255, 220, 115);
     //Parameters: x, y, breedte, hoogte
     rect(xCar, yCar, 110, 20);
     rect(xCar + 10, yCar-22, 70, 40);
     // Wielen
-    stroke(255); //Witte randen voor de wielen
-    strokeWeight(2); //Iets dikkere randen
+    stroke(255);
+    strokeWeight(2);
     fill(12, 66, 66);
     ellipse(xCar + 25, yCar + 21, wheelSize, wheelSize); //Parameters: x, y, breedte, hoogte
     ellipse(xCar + 80, yCar + 21, wheelSize, wheelSize);
