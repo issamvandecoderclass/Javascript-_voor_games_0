@@ -12,6 +12,7 @@ function setup(){
 
 function draw(){
   background(255);
+  fill(255, 220, 115);
   if (xBall > width - radius || xBall < radius){
       xSpeed = -xSpeed;
   }

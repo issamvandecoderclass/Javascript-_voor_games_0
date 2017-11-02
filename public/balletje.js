@@ -11,8 +11,7 @@ function setup(){
 }
 
 function draw(){
-  background(100);
-  fill(255, 220, 115);
+  background(255);
   if (xBall > width - radius || xBall < radius){
       xSpeed = -xSpeed;
   }
@@ -22,5 +21,4 @@ function draw(){
   xBall += xSpeed;
   yBall += ySpeed;
   ellipse(xBall, yBall, 2*radius, 2*radius);
-  }
 }
