@@ -34,7 +34,7 @@ function draw(){
       console.log("In de bal 2 x");
   }
   if (yBall2 > height - radius || yBall2 < radius){
-      xSpeed2 = -xSpeed2;
+      ySpeed2 = -ySpeed2;
       console.log("In de bal 2 y");
   }
 
